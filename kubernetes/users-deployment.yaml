@@ -17,6 +17,5 @@ spec:
           image: svadrut/third_kubernetes_app-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: localhost
-        - name: auth
-          image: svadrut/third_kubernetes_app-auth:latest
+              # value: "10.106.9.92"
+              value: "auth-service.default"

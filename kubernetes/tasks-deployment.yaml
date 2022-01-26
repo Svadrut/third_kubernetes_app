@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: svadrut/third_kubernetes_app-tasks:3
+          image: svadrut/third_kubernetes_app-tasks:latest
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"
